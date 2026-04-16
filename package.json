@@ -1,0 +1,36 @@
+{
+  "name": "rtn-scan-qr",
+  "version": "0.0.2",
+  "description": "QR Code scanner Fabric Native Component for React Native 0.81",
+  "react-native": "js/RTNScanQrNativeComponent",
+  "source": "js/RTNScanQrNativeComponent",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "rtn-scan-qr.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "qr-code",
+    "scanner"
+  ],
+  "license": "MIT",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": ">=0.71.0"
+  },
+  "codegenConfig": {
+    "name": "RTNScanQrSpecs",
+    "type": "components",
+    "jsSrcsDir": "js"
+  }
+}
