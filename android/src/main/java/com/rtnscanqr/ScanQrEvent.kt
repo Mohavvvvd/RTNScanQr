@@ -11,7 +11,7 @@ class ScanQrEvent(
 ) : Event<ScanQrEvent>(surfaceId, viewId) {
 
     override fun getEventName(): String {
-        return "topOnQrScanned"
+        return "onQrScanned"
     }
 
     override fun canCoalesce(): Boolean {
